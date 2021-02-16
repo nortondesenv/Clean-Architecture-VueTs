@@ -20,7 +20,6 @@ export default class AddItemToCartUseCase implements BaseUseCase {
     async execute(item: IProduct) {
         try {
             this.cart.addItemToCart(item);
-            alert('Produto adicionado em seu carrinho.');
         } catch (e) {
             await this.errorService.handle(e);
         }

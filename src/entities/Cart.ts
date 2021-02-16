@@ -31,6 +31,7 @@ export class CartEntity {
             amount,
         };
         await store.commit(new AddItem(cartItem));
+        alert('Produto adicionado em seu carrinho.');
     }
 
     async checkOut() {
