@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <div class="Header"></div>
+        <Header />
         <transition name="fade-in-up">
             <router-view />
         </transition>
@@ -9,7 +9,11 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
+import Header from '@/components/Modules/Header.vue';
 
-export default Vue.extend({});
+export default {
+    components: {
+        Header,
+    },
+};
 </script>
