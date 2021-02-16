@@ -10,4 +10,12 @@ describe('Button.vue', () => {
         const div = wrapper.find('div');
         expect(div.text()).toMatch(buttonText);
     });
+
+    it('Emissão de evento click', async () => {
+        const wrapper = shallowMount(Button, {
+            propsData: { text: 'teste' },
+        });
+        await wrapper.trigger('click');
+        expect(wrapper.emitted().click).toBeTruthy();
+    });
 });
