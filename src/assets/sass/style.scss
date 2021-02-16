@@ -1,3 +1,12 @@
+//
+// Main Style
+//
+
+// 1: Initialize Base Styles
 @import 'base/init';
+
+// 3: Initialize Components Styles
 @import 'components/init';
+
+// 2: Initialize Layout Styles
 @import 'layout/init';
