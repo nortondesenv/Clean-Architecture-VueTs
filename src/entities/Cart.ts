@@ -35,9 +35,8 @@ export class CartEntity {
 
     async checkOut() {
         // Start operation
-
         store.commit(new ClearItems());
-
+        alert('Obrigado e volte sempre!');
         return;
     }
 }

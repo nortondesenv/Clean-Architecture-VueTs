@@ -19,7 +19,6 @@ export default class CheckOutUseCase implements BaseUseCase {
     async execute() {
         try {
             await this.cart.checkOut();
-            alert('Obrigado e volte sempre!');
         } catch (e) {
             await this.errorService.handle(e);
         }
