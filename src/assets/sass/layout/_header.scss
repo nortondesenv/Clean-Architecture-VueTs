@@ -24,6 +24,7 @@
                     list-style: none;
                     &__Text {
                         font-family: $font-family-base;
+                        cursor: pointer;
                         text-decoration: none;
                         color: $gray-dark;
                         font-size: get($font-sizes, xl);
