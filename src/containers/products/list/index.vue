@@ -59,10 +59,3 @@ export default Vue.extend({
     },
 });
 </script>
-
-<style>
-.ProductsList__Products {
-    display: flex;
-    width: 80%;
-}
-</style>
