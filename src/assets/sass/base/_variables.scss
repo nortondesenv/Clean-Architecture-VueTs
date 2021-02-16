@@ -32,6 +32,11 @@ $gray-dark: #666666 !default;
 $gray-light: #f5f5f5 !default;
 $info: #5cb79f !default;
 
+// Box Shadow
+$box-shadow-button: 0px 5px 10px rgba($dark, 0.15);
+$box-shadow-bot: 0px 2px 5px rgba(0, 0, 0, 0.1);
+$box-shadow-top: 0px 5px 10px rgba($dark, 0.15);
+
 // Colors Theme Modifier
 $theme-colors: (
     'white': $white,
