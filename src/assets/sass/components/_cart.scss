@@ -97,6 +97,7 @@
             &__Name {
                 width: 85%;
                 display: inline-flex;
+                height: 50%;
                 &--text-dark {
                     font-family: $font-family-base;
                     color: $dark;
@@ -107,7 +108,7 @@
             }
             &__Count {
                 width: 50%;
-                height: 60%;
+                height: 40%;
                 flex-direction: column-reverse;
                 display: inline-flex;
                 &__Box {
