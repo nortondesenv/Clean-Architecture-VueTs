@@ -36,6 +36,10 @@
 
 <script lang="ts">
 import Vue from 'vue';
+import ToggleCartUseCase, {
+    IToggleCartUseCase,
+} from '@/usecases/ToggleCartUseCase';
+import { CartEntity } from '@/entities/Cart';
 
 export default Vue.extend({
     data() {
@@ -53,6 +57,15 @@ export default Vue.extend({
         cartCount: {
             type: Number,
             default: 0,
+        },
+    },
+    methods: {
+        async toggleCart() {
+            const params: IToggleCartUseCase = {
+                cart: new CartEntity(),
+            };
+
+            await new ToggleCartUseCase(params).execute();
         },
     },
 });
