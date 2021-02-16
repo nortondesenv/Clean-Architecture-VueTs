@@ -3,9 +3,10 @@ import App from './App.vue';
 import router from './router';
 import store from './store';
 import './styles.scss';
+import VueScreenSize from 'vue-screen-size';
 
 Vue.config.productionTip = false;
-
+Vue.use(VueScreenSize);
 new Vue({
     router,
     store,
