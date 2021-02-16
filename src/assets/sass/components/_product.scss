@@ -1,0 +1,90 @@
+.Container-Product {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    width: 90%;
+    overflow-y: auto;
+    margin: auto;
+    max-width: 1180px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 2rem;
+    flex-wrap: nowrap;
+}
+
+.Card__Product {
+    width: 100%;
+    display: flex;
+    border-radius: 4px;
+    flex-direction: column;
+    background-color: $white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+    &__Image {
+        width: 50%;
+    }
+
+    &__Container {
+        padding: 1.8rem;
+        display: flex;
+        align-content: stretch;
+
+        &__Info {
+            width: 100%;
+            display: grid;
+            &__Text {
+                font-family: $font-family-base;
+                color: $dark;
+                font-size: get($font-sizes, md);
+                min-height: 3.2rem;
+                font-weight: $font-weight-boldest;
+                &--Promotional {
+                    color: $gray;
+                    text-decoration-line: line-through;
+                    font-size: get($font-sizes, ss);
+                    line-height: 2.6rem;
+                    font-weight: $font-weight-boldest;
+                }
+                &--Socio {
+                    color: $dark;
+                    text-transform: uppercase;
+                    font-size: get($font-sizes, sm);
+                    line-height: 2.6rem;
+                    font-weight: $font-weight-boldest;
+                }
+                &--Member {
+                    color: $secundary;
+                    font-size: get($font-sizes, md);
+                    line-height: 2.6rem;
+                    font-weight: $font-weight-boldest;
+                }
+            }
+        }
+    }
+}
+
+//Reponsive
+@media (max-width: 768px) {
+    .Container-Product {
+        display: flex;
+        &::-webkit-scrollbar {
+            width: 12px;
+            height: 12px;
+        }
+        &::-webkit-scrollbar-corner {
+            background: #f6f6f6;
+        }
+    }
+    .Card__Product {
+        min-width: 250px;
+        text-align: center;
+        &__Container {
+            display: grid;
+            &__Image {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+}
