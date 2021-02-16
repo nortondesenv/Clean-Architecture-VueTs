@@ -1,0 +1,26 @@
+.Banner {
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+    &__Card {
+        width: 90%;
+        max-width: 1180px;
+        margin: auto;
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 20px;
+
+        &__Content {
+            display: flex;
+            flex-direction: column;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+        }
+
+        &__Image {
+            border-radius: 5px;
+        }
+    }
+}
