@@ -1,0 +1,70 @@
+.Header {
+    background-color: $white;
+    border: 0.5px solid #d5d5d5;
+    box-sizing: border-box;
+    height: 70px;
+    &__Container {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 90%;
+        max-width: 1180px;
+        margin: auto;
+        &__Logo {
+            width: 100px;
+            margin-left: 20px;
+            margin-right: 65px;
+            padding: 15px 0;
+        }
+        &__Nav {
+            display: flex;
+            &__Ul {
+                display: flex;
+                &__Li {
+                    list-style: none;
+                    &__Text {
+                        font-family: $font-family-base;
+                        text-decoration: none;
+                        color: $gray-dark;
+                        font-size: get($font-sizes, xl);
+                        padding: 1.9rem;
+                        transition: all 250ms linear 0s;
+                        &:hover {
+                            color: $secundary-light;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.Header__Cart {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 0;
+    &__Img {
+        margin-left: auto;
+        margin-right: 0;
+    }
+    &__Amount {
+        position: absolute;
+        right: 0%;
+        top: 60%;
+        background: $white;
+        text-align: center;
+        border-radius: 30px 30px 30px 30px;
+        color: $info;
+        padding: 1px 6px;
+        font-weight: $font-weight-bold;
+    }
+}
+
+//Reponsive
+@media (max-width: 849px) {
+    .Header__Container__Nav {
+        display: none;
+    }
+}
