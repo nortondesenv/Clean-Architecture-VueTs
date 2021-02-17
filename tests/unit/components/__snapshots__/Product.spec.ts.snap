@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product.vue Renderiza Product disponivel 1`] = `
+<div class="Card__Product">
+  <div class="Card__Product__Container">
+    <div class="Card__Product__Container__Image"><img src="testeImage.png"></div>
+    <div class="Card__Product__Container__Info">
+      <div class="Card__Product__Container__Info__Text">
+        testProduct
+      </div>
+      <div class="Card__Product__Container__Info__Text--Promotional">
+        R$&nbsp;5,55
+      </div>
+      <div class="Card__Product__Container__Info__Text--Socio">
+        SOCIO WINE
+      </div>
+      <div class="Card__Product__Container__Info__Text--Member">
+        R$&nbsp;5,55
+      </div>
+      <button-stub nativetype="button" type="Secundary" size="Midium" autowidth="true" margin="Margin-Small" text="Adicionar"></button-stub>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Product.vue Renderiza Product não disponivel 1`] = `
+<div class="Card__Product">
+  <div class="Card__Product__Container">
+    <div class="Card__Product__Container__Image"><img src="testeImage.png"></div>
+    <div class="Card__Product__Container__Info">
+      <div class="Card__Product__Container__Info__Text">
+        testProduct
+      </div>
+      <!---->
+      <!---->
+      <!---->
+      <button-stub nativetype="button" disabled="true" type="Secundary" size="Midium" autowidth="true" margin="Margin-Small" text="Esgotado"></button-stub>
+    </div>
+  </div>
+</div>
+`;
