@@ -70,10 +70,10 @@ export default Vue.extend({
         },
     },
     methods: {
-        addItem() {
+        addItem(): void {
             this.item.amount = this.item.amount + 1;
         },
-        lessOne() {
+        lessOne(): void {
             if (this.item.amount == 1) return;
             this.item.amount = this.item.amount - 1;
         },
