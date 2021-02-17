@@ -20,12 +20,14 @@
 </template>
 
 <script lang="ts">
+const MIN_SIZE_MOBILE: Number = 470;
+
 import Vue from 'vue';
 
 export default Vue.extend({
     computed: {
         mobileMode(): Boolean {
-            return this.$vssWidth < 470;
+            return this.$vssWidth < MIN_SIZE_MOBILE;
         },
     },
 });
