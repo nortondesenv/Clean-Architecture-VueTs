@@ -1,0 +1,29 @@
+.Cart__Header {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    &__Arrow {
+        width: 20%;
+        cursor: pointer;
+        height: 65%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        transform: rotate(180deg);
+        display: flex;
+    }
+
+    &__Box {
+        font-family: $font-family-base;
+        font-size: get($font-sizes, xl);
+        font-style: normal;
+        font-weight: $font-weight-normal;
+        line-height: 16px;
+        letter-spacing: -0.8333333134651184px;
+        &--Text {
+            padding: 2rem;
+            font-size: 2.1rem;
+        }
+    }
+}

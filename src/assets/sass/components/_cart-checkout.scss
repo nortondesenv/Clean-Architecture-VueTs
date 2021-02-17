@@ -1,0 +1,37 @@
+.Cart__Checkout {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 2rem 0px 2rem;
+    margin-bottom: 2rem;
+
+    &__Price {
+        font-family: $font-family-base;
+
+        color: $secundary-light;
+        font-style: normal;
+        font-weight: $font-weight-boldest;
+        line-height: 29px;
+        letter-spacing: 0px;
+        text-align: right;
+        font-size: get($font-sizes, xxl);
+        @media (max-width: 450px) {
+            font-size: 2.1rem;
+        }
+    }
+
+    &__Sub {
+        font-size: 1.3rem;
+        font-family: $font-family-base;
+        font-style: normal;
+        font-weight: $font-weight-bolder;
+        line-height: 29px;
+        text-align: right;
+        text-transform: uppercase;
+        color: $gray-dark;
+    }
+
+    @media (max-width: 450px) {
+        padding-top: 0.8rem;
+        margin-bottom: 0.4rem !important;
+    }
+}

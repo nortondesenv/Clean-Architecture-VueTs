@@ -1,0 +1,24 @@
+.Cart__Empty {
+    text-align: center;
+    width: 100%;
+    height: 76%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+    &__Info {
+        font-family: $font-family-base;
+        font-size: get($font-sizes, xl);
+        font-style: normal;
+        font-weight: $font-weight-normal;
+        line-height: 16px;
+        letter-spacing: -0.8333333134651184px;
+    }
+
+    &__svg {
+        width: 100%;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-bottom: 5rem;
+    }
+}
