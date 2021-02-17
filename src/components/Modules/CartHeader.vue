@@ -23,7 +23,7 @@ export default Vue.extend({
     },
     methods: {
         toggleCart() {
-            this.$emit('toggle-cart');
+            this.$emit('toggleCart');
         },
     },
 });

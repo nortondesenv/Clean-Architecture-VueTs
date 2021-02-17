@@ -5,7 +5,7 @@
                 <template>
                     <div class="Cart__Divisor--Top">
                         <CartHeader
-                            @toggle-cart="toggleCart()"
+                            @toggleCart="toggleCart()"
                             :cartCount="cartCount"
                         ></CartHeader>
                     </div>
