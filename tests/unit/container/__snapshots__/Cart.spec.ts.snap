@@ -1,5 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Header.vue Cart propriedade aberta 1`] = `
+<transition-stub name="fade">
+  <div>
+    <div class="Cart">
+      <div class="Cart__Divisor--Top">
+        <cartheader-stub cartcount="0"></cartheader-stub>
+      </div>
+      <div class="Cart__Divisor--Mid"></div>
+      <div class="Cart__Divisor--Bot">
+        <cartcheckout-stub totalprice="0"></cartcheckout-stub>
+      </div>
+    </div>
+    <div class="Cart__Overlay"></div>
+  </div>
+</transition-stub>
+`;
+
 exports[`Header.vue Cart propriedade fechada 1`] = `
 <transition-stub name="fade">
   <!---->

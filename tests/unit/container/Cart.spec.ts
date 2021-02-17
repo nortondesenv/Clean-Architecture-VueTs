@@ -32,7 +32,7 @@ describe('Header.vue', () => {
                 },
             },
         });
-        expect(wrapper.html()).toContain('Cart__Divisor--Top');
+        expect(wrapper.html()).toMatchSnapshot();
     });
 
     it('Cart vazio', () => {
