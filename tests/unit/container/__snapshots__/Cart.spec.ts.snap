@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header.vue Cart propriedade fechada 1`] = `
+<transition-stub name="fade">
+  <!---->
+</transition-stub>
+`;
