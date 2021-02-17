@@ -6,13 +6,13 @@
                     v-if="mobileMode"
                     class="Banner__Card__Content__Image"
                     src="@/../public/img/banner-mobile.png"
-                    alt="Logo"
+                    alt="Banner Mobile"
                 />
                 <img
                     v-else
                     class="Banner__Card__Content__Image"
                     src="@/../public/img/banner.png"
-                    alt="Logo"
+                    alt="Banner"
                 />
             </div>
         </div>
