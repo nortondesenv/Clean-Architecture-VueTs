@@ -3,7 +3,7 @@ import Cart from '@/containers/cart/index.vue';
 import { IPresenterState } from '@/containers/cart/presenter';
 import { ICartItem } from '@/entities/Cart';
 
-describe('Header.vue', () => {
+describe('CartContainer.vue', () => {
     const cartItem: ICartItem[] = [];
 
     const presenterCart: IPresenterState = {

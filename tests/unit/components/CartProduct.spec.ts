@@ -1,7 +1,7 @@
 import { shallowMount } from '@vue/test-utils';
 import CartProduct from '@/components/modules/CartProduct.vue';
 
-describe('Header.vue', () => {
+describe('CartProduct.vue', () => {
     it('Renderiza lista de navegação do menu', () => {
         const product: any = {
             available: true,
