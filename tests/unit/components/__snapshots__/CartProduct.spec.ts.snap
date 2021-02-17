@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header.vue Renderiza lista de navegação do menu 1`] = `
+<div class="Cart__Product">
+  <div class="Cart__Product__Content">
+    <div><img src="testeImage.png"></div>
+    <div class="Cart__Product__Content__Info">
+      <div class="Cart__Product__Content__Info__Name Cart__Product__Content__Info__Name--text-dark">
+        testProduct
+      </div>
+      <div class="Cart__Product__Content__Info__Close Cart__Product__Content__Info__Close--text-light-dark">
+        X
+      </div>
+      <div class="Cart__Product__Content__Info__Count">
+        <div class="Cart__Product__Content__Info__Count__Box">
+          <div class="Cart__Product__Content__Info__Count__Box__Item Cart__Product__Content__Info__Count__Box__Item--icon">
+            -
+          </div>
+          <div class="Cart__Product__Content__Info__Count__Box__Item Cart__Product__Content__Info__Count__Box__Item--text-medium">
+            55
+          </div>
+          <div class="Cart__Product__Content__Info__Count__Box__Item Cart__Product__Content__Info__Count__Box__Item--icon">
+            +
+          </div>
+        </div>
+      </div>
+      <div class="Cart__Product__Content__Info__Price Cart__Product__Content__Info__Price--text-medium">
+        R$&nbsp;305,25
+      </div>
+    </div>
+  </div>
+  <hr class="Cart__Product__Separator">
+</div>
+`;
