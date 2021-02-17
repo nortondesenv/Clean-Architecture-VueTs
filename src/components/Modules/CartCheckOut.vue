@@ -2,7 +2,7 @@
     <div>
         <div class="Cart__Checkout">
             <label class="Cart__Checkout__Sub">SubTotal</label>
-            <label label class="Cart__Checkout__Price">
+            <label class="Cart__Checkout__Price">
                 {{ totalPriceFormated }}
             </label>
         </div>
@@ -42,7 +42,7 @@ export default Vue.extend({
         },
     },
     computed: {
-        totalPriceFormated() {
+        totalPriceFormated(): Number {
             return this.totalPrice.toLocaleString('pt-br', {
                 style: 'currency',
                 currency: 'BRL',
