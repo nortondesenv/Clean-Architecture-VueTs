@@ -1,29 +1,36 @@
-# vue-teste
+# Wine Vue
 
-## Project setup
-```
-npm install
-```
+Projeto [demo](https://main.d30rzvge0k24d.amplifyapp.com/) .
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+#### Aplicação composta
 
-### Compiles and minifies for production
-```
-npm run build
-```
+-   Vue + TypeScript
+-   Sass/Scss
+-   Jest
+-   Clean Architecture
 
-### Run your unit tests
-```
-npm run test:unit
+#### Instruções
+
+Instalar dependências:
+
+```sh
+$ npm install
 ```
 
-### Lints and fixes files
-```
-npm run lint
+Compila ambiente de desenvolvimento:
+
+```sh
+$ npm run serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Roda os testes da aplicação:
+
+```sh
+$ npm run test
+```
+
+Correções lint:
+
+```sh
+$ npm run lint
+```
