@@ -35,6 +35,10 @@ export class CartEntity {
     }
 
     async checkOut() {
+        if (!store.state.cart.cart.items.length) {
+            alert('Carrinho vazio!');
+            return;
+        }
         // Start operation
         store.commit(new ClearItems());
         alert('Obrigado e volte sempre!');
