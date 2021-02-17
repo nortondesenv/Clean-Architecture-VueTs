@@ -8,6 +8,7 @@ Projeto [demo](https://main.d30rzvge0k24d.amplifyapp.com/) .
 -   Sass/Scss
 -   Jest
 -   Clean Architecture
+-   BEM
 
 #### Instruções
 
