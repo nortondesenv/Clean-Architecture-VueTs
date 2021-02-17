@@ -2,7 +2,7 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 import store from './store';
-import './styles.scss';
+import './assets/sass/style.scss';
 import VueScreenSize from 'vue-screen-size';
 
 Vue.config.productionTip = false;
