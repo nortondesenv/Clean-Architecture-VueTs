@@ -1,6 +1,6 @@
 # Wine Vue
 
-Projeto [demo](https://main.d30rzvge0k24d.amplifyapp.com/) .
+Projeto [demo](https://main.d2f0oce54chzyr.amplifyapp.com/) .
 
 #### Aplicação composta
 
